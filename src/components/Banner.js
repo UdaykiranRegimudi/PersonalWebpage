@@ -63,10 +63,10 @@ const Banner = () => {
 							viewport={{ once: false, amount: 0.7 }}
 							className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
 						>
-							<a href='https://www.linkedin.com/in/igor-furman-76a49022a/' target="_blank" rel="noopener noreferrer" className='text-gradient btn-link'>
+							<a href='https://www.linkedin.com/in/uday-kiran-81577621a/' target="_blank" rel="noopener noreferrer" className='text-gradient btn-link'>
 								Hire me
 							</a>
-							<a href='https://github.com/IgorFurman' target="_blank" rel="noopener noreferrer" className='btn btn-lg'>
+							<a href='https://github.com/UdaykiranRegimudi' target="_blank" rel="noopener noreferrer" className='btn btn-lg'>
 								My Portfolio
 							</a>
 						</motion.div>
@@ -78,10 +78,10 @@ const Banner = () => {
 							viewport={{ once: false, amount: 0.7 }}
 							className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
 						>
-							<a href='https://github.com/IgorFurman' target="_blank" rel="noopener noreferrer">
+							<a href='https://github.com/UdaykiranRegimudi' target="_blank" rel="noopener noreferrer">
 								<FaGithub size={32}  />
 							</a>
-							<a  href='https://www.linkedin.com/in/igor-furman-76a49022a/' target="_blank" rel="noopener noreferrer">
+							<a  href='https://www.linkedin.com/in/uday-kiran-81577621a/' target="_blank" rel="noopener noreferrer">
 								<FaLinkedin size={32}/>
 							</a>
 						</motion.div>
