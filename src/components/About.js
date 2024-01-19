@@ -33,7 +33,7 @@ const About = () => {
 									Hello! I'm a passionate, self-motivated frontend developer
 									eager to build intuitive, user-friendly web experiences. I
 									learned the basics of coding and programming by completing
-									HTML, CSS, and JS courses on Udemy, then further developed my
+									HTML, CSS, JS, React JS, Node Js, courses on Nxtwave, then further developed my
 									skills by learning more technologies through YouTube and official
 									documentation. However, I must admit that the crucible of creating my own projects has proven to be the most enlightening of all.
 								</p>
@@ -48,7 +48,7 @@ const About = () => {
 							</div>
 							<div>
 								<p className='mb-1 ' style={{ textIndent: '2em' }}>
-								Currently, my focus lies in further mastering building React applications and am taking strides towards gaining a solid foundation in TypeScript. Though the realm of coding is vast and complex, my current skill set equips me to solve simple to moderately complex problems. I believe in lifelong learning, and the ever-evolving landscape of technology offers an abundance of opportunities to do just that.
+								Currently, my focus lies in further mastering building AIML applications and am taking strides towards gaining a solid foundation in TypeScript. Though the realm of coding is vast and complex, my current skill set equips me to solve simple to moderately complex problems. I believe in lifelong learning, and the ever-evolving landscape of technology offers an abundance of opportunities to do just that.
 								</p>
 								<p className='mb-1 ' style={{ textIndent: '2em' }}>
 								Outside the realm of coding, I'm a tech enthusiast who loves exploring the latest gadgets. I'm also a movie buff and an avid fitness enthusiast who enjoys hitting the gym and boxing to keep myself physically fit and mentally sharp. Obviously I love traveling that fuels my curiosity and creativity. 

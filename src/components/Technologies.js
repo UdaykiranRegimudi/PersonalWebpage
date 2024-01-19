@@ -11,17 +11,18 @@ import { fadeIn } from '../variants';
 import JsLogo from '../assets/javascript-1.svg';
 import Html5Logo from '../assets/html5-logo.svg';
 import ReactLogo from '../assets/react-logo.svg';
-import ReduxLogo from '../assets/redux-logo.svg';
+import BootStrap from '../assets/bootstrap.png'
 import CssLogo from '../assets/css-logo.svg';
-import SassLogo from '../assets/sass-logo.svg';
+import NodeJs from '../assets/Nodejs.png'
+
 
 const technologies = [
 	{ name: 'JavaScript', logo: JsLogo },
-	{ name: 'HTML5', logo: Html5Logo },
 	{ name: 'React', logo: ReactLogo },
-	{ name: 'Redux', logo: ReduxLogo },
+	{name:'Bootstrap',logo:BootStrap},
 	{ name: 'CSS', logo: CssLogo },
-	{ name: 'SASS', logo: SassLogo },
+	{name:'Node',logo:NodeJs}
+
 ];
 
 function NextArrow(props) {

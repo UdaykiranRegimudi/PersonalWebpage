@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Image from '../assets/avatar.png';
+import Image from '../assets/avatar.jpg';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
@@ -22,7 +22,7 @@ const Banner = () => {
 							viewport={{ once: false, amount: 0.7 }}
 							className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'
 						>
-							Igor <span>Furman</span>
+							Uday <span>Kiran</span>
 						</motion.h1>
 						<motion.div
 							variants={fadeIn('up', 0.4)}
@@ -93,7 +93,7 @@ const Banner = () => {
 						whileInView={'show'}
 						className='hidden lg:flex flex-1  max-w-[320px] lg:max-w-[482px]'
 					>
-						<img className='rounded-3xl'src={Image} alt='' />
+						<img className='w-1/2 rounded-md' src={Image} alt='' />
 					</motion.div>
 				</div>
 			</div>

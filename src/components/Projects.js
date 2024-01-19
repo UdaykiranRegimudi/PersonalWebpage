@@ -7,59 +7,52 @@ import CountUp from 'react-countup';
 
 const largeProjects = [
 	{
-		name: 'Big Cloud - e-commerce VapeShop',
+		name: 'Nxt Trendz ( ECommerce Clone - Amazon, Flipkart)',
 		description:
-			'Big Cloud - VapeShop is a robust, feature-rich e-commerce application developed with React.js. It offers an intuitive user experience, complete with product viewing, sorting, and filtering capabilities, alongside an integrated cart system and robust profile management features.',
-		technologies: 'React.js, Firebase, CSS',
-		link: 'https://igorfurman.github.io/VapeShop/',
+			"This pioneering e-commerce platform, inspired by the success of giants like Amazon and Flipkart, has been launched with an emphasis on innovation. Leveraging ReactRouter and React components, meticulously designed pages for Login, Products, and Product details promise a seamless user experience. The implementation of robust security measures, including JWT tokens, REST API calls, and local storage, ensures the utmost protection for user data. This cutting-edge platform not only mirrors industry leaders but also introduces novel features and enhanced security protocols, setting a new standard in the world of online commerce.",
+		technologies: ' React JS, JS, CSS, Bootstrap, Routing, REST API Calls, LocalStorage, JWT Token, Authorization, Authentication',
+		link: 'https://udayflipcart.ccbp.tech/login/',
 	},
 	{
-		name: 'Plan Your Trip',
+		name: 'Chatbot',
 		description:
-			'Plan Your Trip is a comprehensive application for travel planning. It includes functions like Display of attractions, hotels, restaurants and weather based on city search, adding places to a personal list and downloading it. The application interacts with a custom backend.',
-		technologies: 'React.js, Redux, Redux-saga, StyledComponents',
-		link: 'https://igorfurman.github.io/PlanYourTrip/',
+			'Introducing a groundbreaking Chatbot designed for personalized and captivating user interactions, setting a new standard in conversational interfaces. The user-friendly UI, crafted with HTML, CSS, and Bootstrap, ensures a seamless display of engaging conversations between users and the chatbot. Leveraging JavaScript DOM operations and Array methods, the platform achieves dynamic rendering of user inputs and chatbot responses, enhancing the overall user experience. This innovative Chatbot goes beyond scripted interactions by tailoring responses to user inputs, intelligently filtering relevant answers from its predefined list. Immerse yourself in a world of interactive communication with this Chatbot, where technology meets user-centric design to deliver an unparalleled and personalized engagement.',
+		link: 'https://udayaichatbot.ccbp.tech/',
+		technologies:' HTML, CSS, JS, Bootstrap, ML'
 	},
 	{
-		name: 'ForestWebside',
+		name: 'School-Admission Website',
 		description:
-			'Forest was my first personal project. It is simple recreational park company webpage. Offers main page, contact page and offer details page.',
-		technologies: 'Gulp.js, Vanilla JavaScript, SASS, HTML',
-		link: 'https://igorfurman.github.io/ForestWebside/',
+			"In a dedicated effort to modernize my former school's administrative processes, I developed a comprehensive solution encompassing a sophisticated database system and an interactive school website. The system is specifically designed to efficiently store admission data, providing a centralized and organized approach for managing student information. The school website, crafted with a user-friendly interface, serves as a digital representation of the institution, offering valuable insights and updates to parents and stakeholders. To further streamline operations, the platform facilitates online admission requests, empowering parents with a convenient and accessible way to initiate the admission process. This integrated approach not only ensures data accuracy and security but also enhances the overall experience for both school administrators and prospective students' families.",
+		technologies: 'HTML, CSS, JavaScript, Bootstrap, React.js, Node.js',
+		link: 'https://zphschilukuru.ccbp.tech/login',
 	},
 ];
 
 const smallProjects = [
 	{
-		name: 'React Calculator',
+		name: 'Online Weather Detection',
 		description:
-			'This project is a simple calculator.Basic arithmetic operations including addition, subtraction, multiplication, and division.Supports more complex mathematical operations such as percentage and square operation ^. Clear all input using the clear button C. Clean and intuitive UI which includes an input display and an interactive grid of buttons.',
-		technologies: 'React.js, StyledComponents',
-		link: 'https://igorfurman.github.io/CalculatorReact/',
+			"This online weather website delivers real-time updates, precise forecasts, and interactive maps for a comprehensive weather experience. Stay ahead with personalized alerts, ensuring you're prepared for changing conditions. Explore detailed climate information and historical data to enhance your understanding of weather patterns. With a user-friendly design, our website offers seamless navigation across devices, keeping you connected to accurate and reliable meteorological data. Join our community of weather enthusiasts for a streamlined and informed weather-tracking experience.",
+		link: 'https://gioeweatherweb.ccbp.tech/',
+		technologies: 'React.js, JavaScript, CSS, HTML',
 	},
 	{
-		name: 'Wallet - Personal Finance Manager',
+		name: 'Country Search',
 		description:
-			'Wallet is a personal finance tool. It allows for adding income and expense transactions, viewing a list of them, and calculating the balance. Features include deleting individual or all transactions and theme switching between light and dark.',
-		technologies: 'Vanilla JavaScript, CSS, HTML',
-		link: 'https://igorfurman.github.io/Finaces-Menager/',
+			'The Country Search Web Project is a streamlined platform designed to provide quick access to essential country information with a focus on simplicity. Users can effortlessly search for and retrieve country names, creating an efficient and straightforward experience. With minimalistic design, the project caters to those seeking swift access to specific country names, making it a convenient tool for various purposes. Enjoy the ease of finding country names on this no-frills web project.',
+		technologies: 'JavaScript, CSS, HTML',
+		link: 'https://udaycountry.ccbp.tech/',
 	},
 	{
-		name: 'ToDo List App',
+		name: 'Moji Game',
 		description:
-			"This project is a simple ToDo List application. The app provides an interface for adding, editing, and removing tasks. The tasks are stored in the browser's local storage.",
+			"The Emoji Game Project is an exciting venture that brings together creativity and technology in a fun and engaging way. Inspired by the universal language of emojis, this project aims to create a unique gaming experience where players decipher and guess phrases or words represented by a combination of emoticons. The game promises to be a delightful challenge, encouraging players to tap into their linguistic and visual skills. With a user-friendly interface and a diverse range of emoji puzzles, the project aims to cater to a wide audience, from casual gamers to language enthusiasts. Embracing the vibrant and expressive world of emojis, this project is set to redefine the gaming landscape, offering a fresh and entertaining take on interactive wordplay..",
 
 		technologies: 'Vanilla JavaScript, CSS, HTML',
-		link: 'https://igorfurman.github.io/TodoList/',
+		link: 'https://mojigame.ccbp.tech/',
 	},
-	{
-		name: 'Plan Your Trip - backend',
-		description:
-			'This is an application that serves as an intermediary for Google Places API. It allows client-side applications to retrieve detailed information. It also keep the API keys safe.',
-
-		technologies: 'Express.js',
-		link: 'https://github.com/IgorFurman/plan-your-trip-backend',
-	},
+	
 ];
 
 const Projects = () => {
